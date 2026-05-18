@@ -1,4 +1,4 @@
-package Main.Java.Basic;
+package Main.Java.Basic.Array;
 
 public class Minimum_increments_k_operations {
     public static void main(String[] args) {

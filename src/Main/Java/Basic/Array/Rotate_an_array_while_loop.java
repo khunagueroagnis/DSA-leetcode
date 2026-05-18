@@ -1,4 +1,4 @@
-package Main.Java.Basic;
+package Main.Java.Basic.Array;
 
 public class Rotate_an_array_while_loop {
 

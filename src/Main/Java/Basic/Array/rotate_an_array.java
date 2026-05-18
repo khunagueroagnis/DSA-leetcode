@@ -1,6 +1,4 @@
-package Main.Java.Basic;
-
-import java.util.Collections;
+package Main.Java.Basic.Array;
 
 public class rotate_an_array {
     public static void main(String[] args) {

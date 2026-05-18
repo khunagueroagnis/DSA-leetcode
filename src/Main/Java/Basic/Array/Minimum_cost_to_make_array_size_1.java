@@ -1,4 +1,4 @@
-package Main.Java.Basic;
+package Main.Java.Basic.Array;
 
 public class Minimum_cost_to_make_array_size_1 {
     public static void main(String[] args) {

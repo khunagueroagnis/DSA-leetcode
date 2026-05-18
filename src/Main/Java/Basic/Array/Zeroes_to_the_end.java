@@ -1,4 +1,4 @@
-package Main.Java.Basic;
+package Main.Java.Basic.Array;
 
 public class Zeroes_to_the_end {
     public static void main(String[] args) {

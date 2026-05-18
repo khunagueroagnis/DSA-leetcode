@@ -1,7 +1,4 @@
-package Main.Java.Basic;
-
-import java.util.ArrayList;
-import java.util.HashSet;
+package Main.Java.Basic.Array;
 
 public class Duplicates_from_sorted_Array {
     public static void main(String[] args) {
