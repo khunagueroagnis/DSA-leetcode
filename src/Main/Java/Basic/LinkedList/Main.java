@@ -10,8 +10,12 @@ public class Main{
         Node temp = head;
 
         while(temp!=null){
-            System.out.println(temp.data);
+            System.out.print(temp.data);
+            if(temp.next!=null){
+                System.out.print("->");
+            }
             temp=temp.next;
+
         }
-    } //
+    }
 }
