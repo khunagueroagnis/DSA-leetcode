@@ -20,7 +20,7 @@ public class Insertion_lined_list {
         return newnode;
     }
 
-
+    //have to do insertion at back and middle
 
     public static void traverse(Node head){
         if(head == null){
