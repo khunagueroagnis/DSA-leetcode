@@ -27,7 +27,6 @@ public class Traverse_Doubly_linked_list {
         }
         System.out.print(curr.data +" ");
         forward_traverse(curr.next);
-
         }
 
     public static void backward_traversal(Noda tail) {
