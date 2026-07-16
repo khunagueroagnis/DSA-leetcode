@@ -13,6 +13,7 @@ public class Insertion_Doubly_Linked_List {
 
 
         head = InsertAtFront(head,1);
+        InsertAtEnd(head,5);
 
         Traverse_Doubly_linked_list traverseClass = new Traverse_Doubly_linked_list();
 
@@ -28,6 +29,23 @@ public class Insertion_Doubly_Linked_List {
         }
         return newNode;
     }
+
+    public static Noda InsertAtEnd (Noda head, int newData){
+        Noda newNode = new Noda(newData);
+        if(head == null){
+            return newNode;
+        }
+        Noda curr = head;
+        while(curr.next != null){
+            curr = curr.next;
+        }
+        curr.next = newNode;
+        newNode.prev = curr;
+
+        return head;
+    }
+
+
 
 
 
