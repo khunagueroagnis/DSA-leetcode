@@ -11,9 +11,20 @@ public class SumOfSubArray {
                temp+= arr[j];
                 sum += temp;
             }
-
         }
+        System.out.println(betterSumOfSubArray(arr));
         System.out.println(sum);
 
     }
+
+    public static int betterSumOfSubArray(int arr[]){
+        int n = arr.length;
+        int result = 0;
+
+        for(int i=0;i<n;i++){
+           result+= (arr[i]*(i+1)*(n-i));
+        }
+        return result;
+    }
+
 }
